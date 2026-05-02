@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Disable Artifact Requirements
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Security - must be defined before including BoardConfig-common.mk
 BOOT_SECURITY_PATCH := 2026-02-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
